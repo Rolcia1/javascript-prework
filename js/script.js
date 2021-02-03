@@ -1,4 +1,4 @@
-var computerMove;
+var computerMove, playerMove;
 computerMove = 'kamień';
 printMessage('Zagrałem ' + computerMove);
 playerMove = 'papier';
