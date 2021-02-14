@@ -1,4 +1,7 @@
-var argButtonName, button_paper, button_rock, button_scissors, buttonTest;
+let argButtonName, 
+button_paper, 
+button_rock, 
+button_scissors;
 
 button_paper = document.getElementById('button-paper');
 button_rock = document.getElementById('button-rock');
@@ -7,7 +10,7 @@ button_scissors = document.getElementById('button-scissors');
 function buttonClicked(argButtonName) {
     clearMessages();
     console.log(argButtonName + ' został kliknięty');
-}
+
 
 var computerMove, playerInput, playerMove, randomNumber;
 
@@ -50,7 +53,7 @@ computerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
 
-
+}
 
 button_paper.addEventListener('click', function(){ buttonClicked('papier'); });
 button_rock.addEventListener('click', function(){ buttonClicked('kamień'); });
