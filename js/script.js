@@ -1,7 +1,7 @@
 let argButtonName, 
-button_paper, 
-button_rock, 
-button_scissors;
+  button_paper, 
+  button_rock, 
+  button_scissors;
 
 button_paper = document.getElementById('button-paper');
 button_rock = document.getElementById('button-rock');
@@ -12,7 +12,9 @@ function buttonClicked(argButtonName) {
     console.log(argButtonName + ' został kliknięty');
 
 
-var computerMove, playerInput, playerMove, randomNumber;
+let computerMove, 
+  playerMove, 
+  randomNumber;
 
 function getMoveName(argMoveId) {
   console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
